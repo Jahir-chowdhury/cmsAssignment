@@ -1,0 +1,726 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 0em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*================
+Contact Header Area
+===================
+*/
+
+.contact-header {
+    background-color: #FFB607;
+}
+
+.email {
+    color: #fff;
+    padding-top: 2px;
+}
+.phone {
+    color: #fff;
+    padding-top: 3px;
+}
+.login {
+    float: left;
+    padding-top: 3px;
+}
+.social-icon {
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+.social-icon a {
+    padding-right: 5px;
+}
+.login a {
+    text-decoration: none;
+    color: #008000 !important;
+}
+.create-account {
+    padding-top: 3px;
+}
+.create-account a {
+    text-decoration: none;
+    color: #008000 !important;
+    margin-left: 20px;
+}
+
+/*================
+Header Area
+===================
+*/
+.navbar-light .navbar-nav .nav-link {
+    color: #086CAA;
+}
+.header {
+    
+}
+.tutor {
+    margin-bottom: 20px;
+}
+.tutor img {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.student {
+    margin-bottom: 20px;
+}
+.student img {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.live-tution {
+    padding-top: 20px;    
+}
+.live-tution img {
+    float: left;
+    height: 25px;`
+}
+.live-tution p {
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.tutor-button {
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #FFB607;
+    border-radius: 10px;
+}
+.tutor-button:hover {
+    background-color: #F5F5F5;
+}
+.tutor-button a {
+    text-decoration: none;
+    color: #000;
+}
+.tutor-button p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.student-button {
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 65px;
+    margin-right: 55px;
+    background-color: #FFB607;
+    border-radius: 10px;
+}
+.student-button:hover {
+    background-color: #F5F5F5; 
+}
+.student-button a {
+    text-decoration: none;
+    color: #000;
+}
+.student-button p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+/*================
+Find Teacher
+===================
+*/
+
+.find-teacher {
+
+}
+.find-teacher-header {
+    background-color: #FFB607;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.find-teacher-header h3 {
+    text-align: center;
+    padding-top: 4px;
+}
+.find-teacher-search {
+    background-color: #f0f0f5;
+}
+.form-group {
+    padding-top: 5px;
+
+}
+.form-group {
+    margin-bottom: 5px;
+    padding-left: 10px;
+} 
+.Button-search button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFB607;
+    border-radius: 7px;
+}
+.Button-search button:hover {
+    display: inline-block;
+    background-color:  #F5F5F5;
+    cursor: pointer;
+}
+.month-highlight {
+    background-color: #E8DCCC;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.month-highlight-heading {
+    text-align: center;
+}
+.month-highlight-body {
+
+}
+.month-highlight-body a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+.month-highlight-body i {
+
+}
+
+
+/*================
+Select subject 
+===================
+*/
+
+.select-subject-left {
+    border: 2px solid #717173;
+    margin-top: 10px;
+    padding-bottom: 10px;    
+}
+.select-subject-head {
+    padding-left: 10px;
+}
+.subject a {
+    text-decoration: none;
+    color: #000;
+}
+.subject a:hover {
+    color: #6495ED;
+}
+.subject i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.skillbase-subject {
+    background-color: #E8DCCC;
+    margin-top: 10px;
+}
+.skillbase-subject-heading {
+    text-align: center;
+}
+.skillbase-subject-body a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+.skillbase-subject-body i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*================
+Find Student
+===================
+*/
+
+.Govt-teaching-job {
+    background-color: #CCCCCC;
+    margin-top: 28px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.Govt-teaching-job-heading h5 {
+    text-align: center;
+}
+.Govt-teaching-job-body a {
+    text-decoration: none;
+    color: #000;
+}
+.Govt-teaching-job-body i {
+    padding-right: 7px;
+}
+
+/*================
+Select subject-2
+===================
+*/
+
+.teachingjob {
+    background-color: #CCCCCC;
+    margin-top: 10px;
+}
+.teachingjob-heading {
+    text-align: center;
+}
+.teachingjob-body a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+.teachingjob-body i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+/*================
+Featured Tutor start
+===================
+*/
+
+.feature-tutor-head {
+    text-align: center;
+    background-color: #FFB607;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 170px;
+}
+.feature-tutor-head h3 {
+    
+}
+.single-tutor {
+    background-color: #F0F0F5;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.single-tutor-left {
+
+}
+.single-tutor-left img {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.single-tutor-right {
+
+}
+.single-tutor-right p {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.advertise-1 {
+    background-color: #E8DCCC;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.advertise-2 {
+    background-color: #CCCCCC;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+
+/*================
+View More start
+===================
+*/
+
+.view-more {
+    text-align: center;
+}
+.view-more a {
+
+}
+.view-more p {
+    display: inline-block;
+    background-color: #FFB607;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.view-more p:hover {
+    display: inline-block;
+    background-color:  #F5F5F5;
+    cursor: pointer;
+}
+
+/*================
+Our course Area
+===================
+*/
+
+.Our-courses-head {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Our-courses-head a {
+
+}
+.Our-courses-head p {
+    display: inline-block;
+    background-color: #FFB607;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Our-courses-head p:hover {
+    display: inline-block;
+    background-color:  #F5F5F5;
+    cursor: pointer;
+}
+.course {
+    text-align: center;
+    background-color: #F0F0F5;
+    margin-bottom: 22px;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+.course a {
+    text-decoration: none;
+    color: #000;
+}
+.course h4 {
+
+}
+.advertise-3 {
+    background-color: #E8DCCC;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+.advertise-4 {
+    background-color: #CCCCCC;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+
+/*================
+ Footer Area
+===================
+*/
+.footer-background {
+    background-color: #FFB607;
+}
+.footer {
+    margin-top: 15px;
+}
+.footer-section {
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.footer-section a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-section p {
+    margin: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.copyright span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.copyright span1 {
+    color: mediumseagreen;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
